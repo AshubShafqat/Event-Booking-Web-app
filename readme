@@ -1,0 +1,60 @@
+# EventBuzz – PWA Event Management System
+
+*EventBuzz* is a PHP-based  Web App (WA) that allows users to browse events, register for them, and manage their participation.
+
+---
+
+## Features
+
+- User Registration & Login
+- Event Listings
+- Event Registration
+- Responsive Design (Mobile-Friendly)
+- Light/Dark Mode Toggle
+- WA Support ( Add to Home)
+- Review 
+- User Ratings
+
+---
+
+## Setup Instructions
+
+1. *Requirements*
+   - XAMPP (Apache + MySQL)
+   - PHP 7.x or 8.x
+   - Modern Browser (Chrome/Edge)
+
+2. *Installation*
+   - Place folder in htdocs/ (e.g., C:/xampp/htdocs/eventbuzz)
+   - Start Apache and MySQL from XAMPP
+   - Open browser and go to:  
+     http://localhost/eventbuzz/
+3. *Database Setup*
+   - Create database eventbuzz
+   - Import the provided SQL dump (if available)
+   - Or create these tables manually:
+     - users (id, username, password, email)
+     - events (id, name, date, location)
+     - registrations (id, user_id, event_id)
+
+---
+
+## Project Structure
+
+- index.php - Main landing page
+- login.php / register.php - Auth pages
+- dashboard.php - User's personal event page
+- style.css - Main styling
+- manifest.json / service-worker.js - WA config
+
+---
+
+## Authors
+
+- Created by [ASHUB SHAFQAT - HAMNA NAZAR]
+- UNIVERSITY OF AGRICULTURE FAISLABAD 2022-2026
+---
+
+## License
+
+This project is for educational purposes only.
